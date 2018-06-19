@@ -1,0 +1,8 @@
+Purple set:
+    SET amountA TO bankAccount["John"]
+    SET amountA TO amountA - 100
+    SET bankAccount["John"] TO amountA
+Green set:
+    SET amountB TO bankAccount["John"]
+    SET amountB TO amountB - 200
+    SET bankAccount["John"] TO amountB
